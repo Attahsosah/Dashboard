@@ -15,7 +15,7 @@ const customers = () => {
             <span>Name</span>
             <span className='sm:text-left text-right'>Email</span>
             <span className='hidden md:grid'>Last Purchase</span>
-            <span className='hidden sm:grid'>Method</span>
+            <span className='hidden sm:grid'>Method of Payment</span>
           </div>
           <ul>
             {data.map((order, id) => (
